@@ -1,0 +1,30 @@
+.card-outer_box{
+    max-width: 10rem ;
+    max-height: auto ;
+    /* word-wrap: break-word; */
+    margin-left: 6rem;
+    /* margin: 0rem 10rem; */
+    margin-top: 5rem;
+    margin-right: 6rem;
+    border-style: solid;
+    padding: 20px 20px 20px 20px;
+    border-color: black;
+    border-width: 0.2rem;
+    box-shadow: 5px 10px #8eb929;
+    transition: linear 200ms;
+}
+.card_head{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+.card-outer_box:hover{
+    transform: scale(1.1);
+    cursor: none;
+}
+.card_image{
+    border-radius: 60px;
+    height: 10rem;
+    width: 10rem;
+}

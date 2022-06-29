@@ -1,0 +1,29 @@
+#q1_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+table, th, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: #96D4D4;
+  }
+/* .launch_btn{
+    border: 2px solid red;
+    width: 16rem;
+    height: 5rem;
+    font-size: 50px;
+    /* size: 50rem; */
+    /* transform: scale(3); */
+    

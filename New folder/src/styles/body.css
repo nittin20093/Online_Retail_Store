@@ -1,0 +1,54 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 27rem;
+    background-color: #f6f5f5;
+}
+.welcome_div{
+    margin-left: 5rem;
+    margin-right: 10rem;
+}
+.shop_now_btn{
+    cursor: pointer;
+    margin-top: 2rem;
+    color: white;
+    background-color: #8eb929;
+    /* border-radius: 5px; */
+    height: 3rem;
+    width: 8rem;
+    font-size: large;
+    transition: all 0.2s ease-in-out;
+}
+.shop_now_btn:hover{
+    /* cursor: pointer;
+    margin-top: 2rem;
+    color: white;
+    background-color: #8eb929;
+    border-radius: 5px;
+    height: 3rem;
+    width: 8rem; */
+    transform:scale(1.12);
+    background-color: white;
+    color: black;
+    cursor: none;
+    /* font-size: large; */
+}
+.welcome_head{
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    /* margin-right: 25rem; */
+}
+.welcome_desc{
+    margin-top: 2px;
+    font-weight: lighter;
+    /* margin-right: 25rem; */
+}
+.welcome_img{
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+    height: 25rem;
+    width: 40rem;
+}

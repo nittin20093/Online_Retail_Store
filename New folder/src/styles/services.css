@@ -1,0 +1,29 @@
+.services{
+    margin-top: 10px;
+}
+.services_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.services_head{
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.services_cards_div{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.lines{
+    margin-top: 3px;
+    visibility: visible;
+    border-radius: 10px;
+    background-color: black;
+    width: 9rem;
+    height: 4px;
+}
